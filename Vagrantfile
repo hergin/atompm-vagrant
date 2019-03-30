@@ -48,7 +48,7 @@ Vagrant.configure("2") do |config|
                       Notes
   ************************************************
   ************************************************
-  - AToMPM is installed now. To run it, you should ssh into vagrant using 'vagrant shh' command.
+  - AToMPM is installed now. To run it, you should ssh into vagrant using 'vagrant ssh' command.
 
   IN THE VIRTUAL MACHINE AFTER SSH'ED INTO BY USING THE COMMAND ABOVE.
   - To run AToMPM, go to 'atompm-0.8.1' folder.
