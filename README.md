@@ -7,18 +7,22 @@ This is a vagrant configuration file to install the necessary stuff for [AToMPM]
 - Download and install [VirtualBox](https://www.virtualbox.org/).
 - Download and install [Vagrant](https://www.vagrantup.com/).
 
+_**Warning:** You must put the folder that has 'vagrant' executable in your environment variables or PATH to execute the following commands._
+
 ## Initialize virtual machine
 
 - Clone this repository
-- Initialize the virtual machine
+- Initialize the virtual machine (command line)
   - `> vagrant up`
   
 ## Run AToMPM
 
-- SSH into vagrant virtual machine
+- SSH into vagrant virtual machine (command line)
   - `> vagrant ssh`
-- CD into the atompm folder
+- CD into the atompm folder (command line)
   - `> cd atompm-0.8.1`
-- Run the script
+- Run the script (command line)
   - `> ./run.sh`
 - Browse to `http://localhost:8124/atompm`
+
+
